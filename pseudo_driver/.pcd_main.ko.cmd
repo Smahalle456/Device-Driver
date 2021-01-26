@@ -1,0 +1,1 @@
+cmd_/home/teju/Desktop/device_driver/pseudo_driver/pcd_main.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/teju/Desktop/device_driver/pseudo_driver/pcd_main.ko /home/teju/Desktop/device_driver/pseudo_driver/pcd_main.o /home/teju/Desktop/device_driver/pseudo_driver/pcd_main.mod.o ;  true
